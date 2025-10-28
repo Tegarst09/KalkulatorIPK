@@ -33,6 +33,11 @@ public class Main {
         input.close();
     }
 
+    /**
+     *
+     * @param nilaiHuruf
+     * @return
+     */
     public static double konversiNilai(String nilaiHuruf) {
         switch (nilaiHuruf) {
             case "A":  return 4.0;
